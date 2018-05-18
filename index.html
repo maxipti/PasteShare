@@ -140,7 +140,7 @@
                         let ul = $('.latest ul');
                         ul.empty();
                         for (const paste of pastes) {
-                            ul.append(`<li><a href="${location.protocol + "//" + location.host + "/?" + paste.alias}">${paste.title}</a></li>`);
+                            ul.append(`<li><a href="${location.protocol + "//" + location.host + "/PasteShare/?" + paste.alias}">${paste.title}</a></li>`);
                         }
                     }
                 });
@@ -200,7 +200,7 @@
                                                     modalBody.append(`<h3>Successfully!</h3><div class="form-group mt-3">
                                                                         <label for="url">Paste link</label>
                                                                          <div class="input-group">
-                                                                            <input type="text" class="form-control" id="url" value="${location.protocol + "//" + location.host + "?" + paste.alias}">
+                                                                            <input type="text" class="form-control" id="url" value="${location.protocol + "//" + location.host + "/PasteShare/?" + paste.alias}">
                                                                             <div class="input-group-append">
                                                                                 <button id="copy-link" class="btn btn-outline-secondary" data-toggle="tooltip" data-placement="right" title="Copy to clipboard">
                                                                                     <i class="fas fa-copy"></i>
