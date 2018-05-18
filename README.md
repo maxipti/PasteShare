@@ -1,3 +1,4 @@
+# Paste&Share
 The application allows you to download text passages for viewing by others.
 
 ### Smart contract
