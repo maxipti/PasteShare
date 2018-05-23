@@ -9,7 +9,8 @@ body {
     min-height: 100vh;
     position: relative;
     margin: 0;
-    padding-bottom: 90px;
+	padding-bottom: 90px;
+	background: url("../img/bg1.png");
 }
 
  footer {
@@ -54,7 +55,12 @@ main {
     padding-top: 50px;
 }
 
+#paste-form {
+	padding: 20px;
+	background: white;
+}
 .block {
+	background: white;
     min-width: 250px;
     padding: 20px;
     font-size: 14px;
